@@ -1,0 +1,6 @@
+Dominant Color: #6d7db1 (a medium shade of blue)
+#ffffff (white)
+#1a3ba2 (a strong shade of blue)
+#92a1d1 (a light shade of periwinkle)
+#1b3ca1 (a similar strong shade of blue as the third, likely a variant due to pixel variation)
+#e1e0dc and #e1e0dd (two very similar shades of light gray, almost white)

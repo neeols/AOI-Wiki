@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>AOI Wiki</title>
+	<!--icon-->
+	<link rel="icon" type="image/x-icon" href="images/icon.png">
+	<!--connecting your style sheet-->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="brand-header">
+
+		<div class="header-content">
+			<!--left-->
+			<div class="text-section">
+				<h1 id="one">AOI Wiki</h1>
+				<h2 id="two">GTCEu Modpack</h2>
+			</div>
+
+			<!--right-->
+			<div class="logo-section">
+				<img src="images/logo.png" height="150">
+			</div>
+		</div>
+	</header>
+
+	<!--creating navigation-->
+	<!--div/section = containers to hold-->
+	<!--class = helps for design, structure, use fo js-->
+
+	<!--navigation bar-->
+	<div class="main-body">
+		<nav id="navbar">
+			<header>Documentation Menu</header>
+
+			<a href="#Intro" class="nav-link">About AOI</a>
+			<a href="#Ambitions" class="nav-link">Ambitions</a>
+			<a href="#CustomAddons" class="nav-link">Custom Addons</a>
+			<a href="#Flowcharts" class="nav-link">Flowcharts</a>
+			<a href="#Credits" class="nav-link">Credits</a>
+		</nav>
+		<main id="main-doc">
+			<!--section abt intro-->
+			<section class="main-section" id="Intro">
+				<header>About AOI</header>
+				<p>
+					<b>Age of Ingenuity</b> is a GTCEu pack focused on being funny and adding complexity to the game.
+					<br>
+					<br>
+				</p>
+
+				<b><u>Current features</u></b>
+				<ul> <!--<ol> (ordered list)-->
+					<li>Various alcohol processing chains (boozeworks)</li>
+					<li>Breaking Greg (custom drugworks addon made for the pack)</li>
+					<li>Quite a few various not-yet-implemented flowcharts</li>
+				</ul>
+
+				<p>
+					I am currently looking for developers to help me come up with ideas, make flowcharts and implement
+					features.
+				</p>
+
+				<br>
+				<br>
+			</section>
+
+			<section class="main-section" id="Ambitions">
+				<header>Ambitions</header>
+				<p>
+					<b><u>Planned features</u></b>
+				<ul> <!--<ol> (ordered list)-->
+					<li>Revamp all processes with more realistic recipes</li>
+					<li>Add UV-MAX progression</li>
+					<li>Rework steam age</li>
+					<li>SFW version of the pack</li>
+				</ul>
+
+				<br>
+				<br>
+				</p>
+			</section>
+
+			<section class="main-section" id="CustomAddons">
+				<header>Custom Addons</header>
+				<p>
+					<b><u>Current indev addons</u></b>
+				<ul> <!--<ol> (ordered list)-->
+					<li>Breaking Greg/Gregorius Drugworks</li>
+					<small><i>by neeols</i></small>
+					<li>Breaking Greg: Food Option (BGFO)</li>
+					<small><i>by neeols</i></small>
+					<li>AOI Core (Coremod)</li>
+					<small><i>by neeols</i></small>
+					<li>StarL0st's Space Mod-</li>
+					<small><i>by StarL0st</i></small>
+				</ul>
+
+				<br>
+				<br>
+				</p>
+			</section>
+
+			<section class="main-section" id="Flowcharts">
+				<header>Flowcharts</header>
+				<br>
+
+				<div class="s-content" style="max-width: 800px;">
+					<img class="mySlides" src="flowcharts/phosphorus_flowchart.png" style="width:100%;" onclick="openTab(this.src)">
+					<img class="mySlides" src="flowcharts/platline_flowchart.png" style="width:100%;" onclick="openTab(this.src)">
+					<img class="mySlides" src="flowcharts/polymersHSO4HCl_flow chart.png" style="width:100%;" onclick="openTab(this.src)">
+				</div>
+
+				<div class="s-center">
+					<div class="s-section">
+						<button class="s-button" onclick="plusDivs(-1)">Prev</button>
+						<button class="s-button" onclick="plusDivs(1)">Next</button>
+					</div>
+					<button class="s-button page" onclick="currentDiv(1)">1</button>
+					<button class="s-button page" onclick="currentDiv(2)">2</button>
+					<button class="s-button page" onclick="currentDiv(3)">3</button>
+
+					<div class="caption">
+						<p id="caption">Caption Text</p>
+						<p id="smallTextCaption">Small Text for Caption</p>
+					</div>
+				</div>
+
+
+
+
+			</section>
+
+			<section class="main-section" id="Credits">
+				<header>Credits</header>
+				<p>
+					<b><u>List of developers</u></b>
+				<ul> <!--<ol> (ordered list)-->
+					<li>neeols</li>
+					<small><i>owner, main dev</i></small>
+					<li>nrmot</li>
+					<small><i>partner in crime, owner of Project CBT</i></small>
+					<li>quantum.in_true_form</li>
+					<small><i>part time helper dev</i></small>
+					<li>brownbeltninja</li>
+					<small><i>Breaking Greg dev, researcher</i></small>
+					<li>axunaattori</li>
+					<small><i>lazy ass texture artist</i></small>
+					<li>omega_5_</li>
+					<small><i>stagnant discord server moderator</i></small>
+					<li>poison.yum</li>
+					<small><i>idek lmao</i></small>
+				</ul>
+
+				<br>
+				<br>
+				<br>
+				<br>
+				</p>
+			</section>
+		</main>
+	</div>
+
+	<!--
+<footer>
+	<p>Content Developed and Maintaned by neeols</p>
+</footer>
+-->
+
+	<!--connecting js-->
+	<script src="code.js"></script>
+</body>
+
+</html>
